@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TOEIC 文法対策アプリ</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <header>
+    <h1>TOEIC文法演習</h1>
+  </header>
+
+  <main>
+    <!-- 1. モード選択画面 -->
+    <section id="mode-selection" class="card">
+      <h2>学習モードを選択</h2>
+      
+      <!-- モードA: 1問ピンポイント -->
+      <div class="mode-box">
+        <h3>1. ピンポイント指定</h3>
+        <input type="number" id="single-q-num" placeholder="例: 120" min="100">
+        <button onclick="startSingleQuestion()">この問題を解く</button>
+      </div>
+
+      <!-- モードB: 章まとめて -->
+      <div class="mode-box">
+        <h3>2. 章ごとに解く</h3>
+        <select id="chapter-select">
+          <option value="5">第5章 前置詞問題</option>
+          <option value="6">第6章 関係詞問題</option>
+        </select>
+        <button onclick="startChapter()">章を開始</button>
+      </div>
+
+      <!-- モードC: 範囲指定 -->
+      <div class="mode-box">
+        <h3>3. 問題番号の範囲指定</h3>
+        <input type="number" id="range-start" placeholder="開始番号 (例: 120)">
+        〜
+        <input type="number" id="range-end" placeholder="終了番号 (例: 127)">
+        <button onclick="startRange()">範囲を開始</button>
+      </div>
+    </section>
+
+    <!-- 2. 解答画面 -->
+    <section id="quiz-screen" class="card hidden">
+      <div class="quiz-header">
+        <span id="quiz-progress">Q 1/1</span>
+        <button onclick="exitQuiz()" class="btn-secondary">モード選択へ戻る</button>
+      </div>
+      
+      <div class="question-title">
+        <span id="q-id">120</span>. <span id="q-text">問題文がここに入ります。</span>
+      </div>
+
+      <div id="options-container" class="options-group">
+        <!-- 選択肢がJavaScriptで生成されます -->
+      </div>
+
+      <!-- 解説領域（解答後表示） -->
+      <div id="explanation-container" class="explanation-box hidden">
+        <div id="result-badge" class="badge">正解！</div>
+        
+        <h4>■ 正解: <span id="correct-answer"></span></h4>
+        <p><strong>【訳】</strong><br><span id="q-translation"></span></p>
+        <p><strong>【解説】</strong><br><span id="q-explanation"></span></p>
+
+        <div id="vocab-box" class="sub-box">
+          <strong>【語彙】</strong>
+          <ul id="vocab-list"></ul>
+        </div>
+
+        <div id="gold-rule-box" class="gold-rule-card">
+          <h5 id="gold-rule-title">金のルール</h5>
+          <p id="gold-rule-content"></p>
+        </div>
+
+        <button id="next-btn" onclick="nextQuestion()">次の問題へ</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+  <script>
+    // Service Workerの登録 (オフライン用)
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js');
+    }
+  </script>
+</body>
+</html>

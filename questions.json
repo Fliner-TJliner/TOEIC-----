@@ -1,0 +1,573 @@
+[
+  {
+    "id": 120,
+    "chapter": 5,
+    "chapterTitle": "第5章 前置詞問題",
+    "question": "Zappish Online guarantees that orders placed in North America will arrive ------- seven days of shipping.",
+    "options": {
+      "A": "among",
+      "B": "beside",
+      "C": "since",
+      "D": "within"
+    },
+    "answer": "D",
+    "translation": "Zappish Onlineは、北米で出された注文は、出荷後7日以内に届くと保証している。[cite: 3]",
+    "explanation": "文頭から空所前は、「Zappish Onlineは、北米で出された注文は届くと保証している」、後は「出荷後7日」です。ここに、(D) within (〜以内)を入れると、within seven days of shipping (出荷後7日以内に)となり、注文が届く期間を正しく示すことができます。[cite: 3]",
+    "vocabulary": [
+      {"word": "guarantee", "meaning": "動 保証する[cite: 3]"},
+      {"word": "place an order", "meaning": "注文を出す[cite: 3]"},
+      {"word": "shipping", "meaning": "名 出荷[cite: 3]"}
+    ],
+    "goldRule": {
+      "number": 62,
+      "title": "within の基本イメージは「範囲内」。[cite: 4]",
+      "content": "前置詞 withinの基本イメージは「範囲内」です。within 24 hours (24時間以内に)のような「期間内」に加えて、within walking distance (徒歩圏内に)といったカタチでも用いられます。[cite: 4]"
+    }
+  },
+  {
+    "id": 121,
+    "chapter": 5,
+    "chapterTitle": "第5章 前置詞問題",
+    "question": "The Lilium Giftshop will be open daily from 9:00 A.M. to 7:00 P.M. ------- the holiday season.[cite: 5]",
+    "options": {
+      "A": "about",
+      "B": "between",
+      "C": "throughout",
+      "D": "onto"
+    },
+    "answer": "C",
+    "translation": "Lilium Giftshopは、休暇シーズンを通してずっと、毎日午前9時から午後7時まで営業します。[cite: 6]",
+    "explanation": "空所前が、「Lilium Giftshopは毎日午前9時から午後7時まで営業します」、後が「休暇シーズン」です。選択肢中、「期間」を伴い、「〜を通してずっと」の意味を表すのが、(C) throughoutです。[cite: 6]",
+    "vocabulary": [],
+    "goldRule": {
+      "number": 63,
+      "title": "throughoutは、「期間」と「場所」を伴う。[cite: 6]",
+      "content": "throughout は、through (〜を通して)にout (完全に)が付き、「期間」や「場所」を伴い、「〜を通してずっと」「〜の至る所で」の意味を表します。[cite: 6]"
+    }
+  },
+  {
+    "id": 122,
+    "chapter": 5,
+    "chapterTitle": "第5章 前置詞問題",
+    "question": "------- the direction of Catherine Smith, the Woodlawn Theater has become one of the most exciting venues in Melbourne.[cite: 7]",
+    "options": {
+      "A": "Across",
+      "B": "Inside",
+      "C": "Over",
+      "D": "Under"
+    },
+    "answer": "D",
+    "translation": "Catherine Smithの監督下で、Woodlawn劇場は、Melbourneで最も刺激的な会場の1つとなった。[cite: 8]",
+    "explanation": "空所後の名詞 directionは、「方向、道順、指示」といったさまざまな意味を表す多義語です。ここでは、「Catherine Smithの監督」といった意味です。この前に置き、「監督下で」という意味を表す前置詞が、(D) Underです。[cite: 8]",
+    "vocabulary": [
+      {"word": "direction", "meaning": "名 監督、指示、方向[cite: 8]"},
+      {"word": "venue", "meaning": "名 会場[cite: 8]"}
+    ],
+    "goldRule": {
+      "number": 64,
+      "title": "underの基本イメージは「下」。[cite: 8]",
+      "content": "下の位置: under a bridge (橋の下)。影響下: under contract (契約期間中)。その他: under Mr. Kato's leadership (〜のリーダーシップの下で)[cite: 8]"
+    }
+  },
+  {
+    "id": 123,
+    "chapter": 5,
+    "chapterTitle": "第5章 前置詞問題",
+    "question": "The Pennington Company processes recycled glass and plastic ------- various products.[cite: 9]",
+    "options": {
+      "A": "along",
+      "B": "into",
+      "C": "before",
+      "D": "beyond"
+    },
+    "answer": "B",
+    "translation": "Pennington社は、リサイクルされたガラスやプラスチックを加工して、さまざまな製品にします。[cite: 10]",
+    "explanation": "空所後のvarious products(さまざまな製品)は、目的語の加工後の姿です。こうした「変化」を表す前置詞が(B) intoで、process X into Yで「Xを加工してYにする」という意味です。[cite: 10]",
+    "vocabulary": [
+      {"word": "process", "meaning": "動 加工する、処理する[cite: 10]"},
+      {"word": "various", "meaning": "形 さまざまな[cite: 10]"}
+    ],
+    "goldRule": {
+      "number": 65,
+      "title": "intoは「変化」を表す。[cite: 10]",
+      "content": "intoは、「〜の内部へ」というイメージから派生して、「変化」を表します。The rain changed/turned into snow. (変わる)[cite: 10]"
+    }
+  },
+  {
+    "id": 124,
+    "chapter": 5,
+    "chapterTitle": "第5章 前置詞問題",
+    "question": "------- the next few weeks, the Vesmar Group will be holding various events to mark its centennial anniversary.[cite: 11]",
+    "options": {
+      "A": "Over",
+      "B": "From",
+      "C": "By",
+      "D": "At"
+    },
+    "answer": "A",
+    "translation": "次の数週間にわたって、Vesmarグループは、100周年を記念するさまざまなイベントを行う予定だ。[cite: 12]",
+    "explanation": "空所後は、the next few weeks (次の数週間)という期間です。選択肢中、期間を伴い、「〜にわたって」という意味を表す前置詞が(A) Overです。[cite: 12]",
+    "vocabulary": [
+      {"word": "hold", "meaning": "動 (イベント等を)行う[cite: 12]"},
+      {"word": "centennial", "meaning": "形 100年の[cite: 12]"},
+      {"word": "mark", "meaning": "動 記念する[cite: 12]"},
+      {"word": "anniversary", "meaning": "名 記念日[cite: 12]"}
+    ],
+    "goldRule": {
+      "number": 66,
+      "title": "overの基本イメージは「虹の架け橋」。[cite: 12]",
+      "content": "overの基本イメージは、虹の架け橋のような「上の円弧」です。We have worked hard over the past year. (過去1年間)[cite: 12]"
+    }
+  },
+  {
+    "id": 125,
+    "chapter": 5,
+    "chapterTitle": "第5章 前置詞問題",
+    "question": "------- the three menu items on special today, the most popular is the turkey sandwich with tomato soup.[cite: 13]",
+    "options": {
+      "A": "Toward",
+      "B": "Of",
+      "C": "As",
+      "D": "Without"
+    },
+    "answer": "B",
+    "translation": "今日の特別料理の3つのメニューの品のうち、1番人気は、トマトスープ付きの七面鳥のサンドイッチです。[cite: 14]",
+    "explanation": "空所に前置詞(B) Ofを入れると、「3つのメニューの品のうちで、最も人気なのは〜」となり文意が通ります。前置詞ofは、最上級と合わせて用いられ、「〜のうちで1番」の意味を表します。[cite: 14]",
+    "vocabulary": [
+      {"word": "special", "meaning": "名 特別料理[cite: 14]"}
+    ],
+    "goldRule": {
+      "number": 67,
+      "title": "ofは「全体の一部」を表す。[cite: 14]",
+      "content": "ofの多岐に渡る用法の1つが、「一部 of 全体」です。全体から一部を取り出すイメージで覚えましょう。He is a member of the marketing team.[cite: 14]"
+    }
+  },
+  {
+    "id": 126,
+    "chapter": 5,
+    "chapterTitle": "第5章 前置詞問題",
+    "question": "------- entering the facility, Mr. Morris showed his security badge to the guard by the door.[cite: 15]",
+    "options": {
+      "A": "During",
+      "B": "Until",
+      "C": "From",
+      "D": "Upon"
+    },
+    "answer": "D",
+    "translation": "施設に入ったらすぐに、Morrisさんは、ドアのそばの警備員に身分証明書を見せた。[cite: 16]",
+    "explanation": "選択肢中、動名詞を伴い、「〜したらすぐに」の意味を表すのが、(D) Upon です。upon entering the facilityで、「施設に入ったらすぐに」という意味です。[cite: 16]",
+    "vocabulary": [
+      {"word": "security badge", "meaning": "身分証明書[cite: 16]"}
+    ],
+    "goldRule": {
+      "number": 68,
+      "title": "uponは、「〜したらすぐに、〜時に」の意味で頻出。[cite: 16]",
+      "content": "前置詞uponは、「〜したらすぐに」の意味で動名詞を伴うカタチに加えて、「〜時に」の意味で名詞を伴うカタチも重要です。upon arrival (到着時に)など。[cite: 16]"
+    }
+  },
+  {
+    "id": 127,
+    "chapter": 5,
+    "chapterTitle": "第5章 前置詞問題",
+    "question": "The building inspector confirmed the factory had been constructed ------- government regulations.[cite: 17]",
+    "options": {
+      "A": "in order of",
+      "B": "in accordance with",
+      "C": "in line for",
+      "D": "in place of"
+    },
+    "answer": "B",
+    "translation": "建築検査官は、その工場が、政府の規制に従って建てられたことを確認した。[cite: 18]",
+    "explanation": "選択肢中、「(ルールや条件等)に従って」という意味の(B) in accordance withを空所に入れると、「政府の規制に従って」となり、前後の文脈が正しくつながります。[cite: 18]",
+    "vocabulary": [
+      {"word": "inspector", "meaning": "名 検査官[cite: 18]"},
+      {"word": "government regulation", "meaning": "政府の規制[cite: 18]"}
+    ],
+    "goldRule": {
+      "number": 69,
+      "title": "熟語の問題は考え込まない。[cite: 18]",
+      "content": "熟語の問題は知らないと解けないので、時間を浪費しないようにしましょう。「に従って」の類義表現：according to the rules, in compliance with the law など[cite: 18]"
+    }
+  },
+  {
+    "id": 128,
+    "chapter": 6,
+    "chapterTitle": "第6章 関係詞問題",
+    "question": "Sprinklex will get rid of those stubborn carpet stains ------- seem impossible to remove.[cite: 21]",
+    "options": {
+      "A": "who",
+      "B": "they",
+      "C": "that",
+      "D": "whose"
+    },
+    "answer": "C",
+    "translation": "Sprinklexは、取り除くのが不可能に思える頑固なカーペットの染みも取り除く。[cite: 23]",
+    "explanation": "空所後のカタチを見ると、述語動詞seemの主語が欠けています。空所に入るのは「主格」の関係代名詞で、先行詞stainsは「人以外」なので(C) that が正解です。[cite: 22]",
+    "vocabulary": [
+      {"word": "get rid of", "meaning": "〜を除去する[cite: 22]"},
+      {"word": "stubborn", "meaning": "形 頑固な[cite: 22]"},
+      {"word": "stain", "meaning": "名 染み[cite: 22]"},
+      {"word": "remove", "meaning": "取り除く[cite: 22]"}
+    ],
+    "goldRule": {
+      "number": 70,
+      "title": "関係代名詞の問題は、「先行詞」と「空所後のカタチ」がポイント。[cite: 23]",
+      "content": "先行詞が「人」か「人以外」かを確認しましょう。空所後を見て、主語が欠けていたら主格、目的語が欠けていたら目的格を選びます。[cite: 23]"
+    }
+  },
+  {
+    "id": 129,
+    "chapter": 6,
+    "chapterTitle": "第6章 関係詞問題",
+    "question": "Eight businesses sell antique toys in the Monroe Building, all of ------- are on its seventh floor.[cite: 27]",
+    "options": {
+      "A": "whose",
+      "B": "them",
+      "C": "which",
+      "D": "they"
+    },
+    "answer": "C",
+    "translation": "Monroe Buildingにはアンティーク玩具を販売する8つの店があり、それらはすべて7階にある。[cite: 28]",
+    "explanation": "カンマ以降は主語Eight businessesを説明する形容詞のカタマリです。前置詞ofの目的語が欠けているので、目的格の関係代名詞(C) which が正解です。[cite: 28]",
+    "vocabulary": [],
+    "goldRule": {
+      "number": 71,
+      "title": "関係代名詞と普通の代名詞の文法的な違いに注意。[cite: 28]",
+      "content": "関係代名詞は「接続詞＋代名詞」の一人二役をこなしますが、普通の代名詞には接続機能はありません。[cite: 28]"
+    }
+  },
+  {
+    "id": 130,
+    "chapter": 6,
+    "chapterTitle": "第6章 関係詞問題",
+    "question": "Aloganics is a business ------- products are healthier than ice creams made by other manufacturers.[cite: 29]",
+    "options": {
+      "A": "what",
+      "B": "whose",
+      "C": "which",
+      "D": "when"
+    },
+    "answer": "B",
+    "translation": "Aloganicsの製品は、他のメーカーが作るアイスクリームよりヘルシーだ。[cite: 30]",
+    "explanation": "空所後も主語や目的語は欠けていません。先行詞businessを所有格itsに変えて入れると、Its products are healthier than〜となり文が成立します。したがって所有格(B) whoseが正解です。[cite: 30]",
+    "vocabulary": [],
+    "goldRule": {
+      "number": 72,
+      "title": "関係詞の問題は、2文に分けて考えるのが基本。[cite: 30]",
+      "content": "関係詞が並んでいたら空所の前後で2文に分けます。後ろの節の主語・目的語・所有格が欠けておらず文の要素がそろったカタチなら、関係副詞や接続詞が正解候補になります。[cite: 30]"
+    }
+  },
+  {
+    "id": 131,
+    "chapter": 6,
+    "chapterTitle": "第6章 関係詞問題",
+    "question": "Madras & Associates specializes in ------- that help clients optimize workplace efficiency and profitability.[cite: 31]",
+    "options": {
+      "A": "strategy",
+      "B": "strategic",
+      "C": "strategically",
+      "D": "strategies"
+    },
+    "answer": "D",
+    "translation": "Madras & Associatesは、顧客が職場の効率と利益性を最適化するのに役立つ戦略を専門にしている。[cite: 32]",
+    "explanation": "空所後のthatの直後に述語動詞helpが続いているので、このthatは主格の関係代名詞です。現在形の述語動詞helpに3単現のsが付いていないので、先行詞は複数形の名詞(D) strategies が正解です。[cite: 32]",
+    "vocabulary": [
+      {"word": "specialize", "meaning": "専門にする[cite: 32]"},
+      {"word": "optimize", "meaning": "動 最適化する[cite: 32]"},
+      {"word": "efficiency", "meaning": "名 効率[cite: 32]"},
+      {"word": "profitability", "meaning": "名 利益性[cite: 32]"}
+    ],
+    "goldRule": {
+      "number": 73,
+      "title": "主格の関係代名詞の先行詞と、直後の述語動詞は主述が一致する。[cite: 32]",
+      "content": "主格の関係代名詞の先行詞と、直後の述語動詞との間にはSVの関係があり、主述が一致します。[cite: 32]"
+    }
+  },
+  {
+    "id": 132,
+    "chapter": 6,
+    "chapterTitle": "第6章 関係詞問題",
+    "question": "------- who has not yet registered for the Virtual Energy Forum should do so by the end of today.[cite: 33]",
+    "options": {
+      "A": "Those",
+      "B": "Other",
+      "C": "They",
+      "D": "Anyone"
+    },
+    "answer": "D",
+    "translation": "Virtual Energy Forumにまだ登録していない人は、今日中にそうしてください。[cite: 34]",
+    "explanation": "関係代名詞whoの直後の述語動詞を見ると、has not registeredと3単現のsが付いています。先行詞は単数名詞なので、単数扱いの代名詞(D) Anyone が正解です。[cite: 34]",
+    "vocabulary": [],
+    "goldRule": {
+      "number": 74,
+      "title": "代名詞のthoseは複数扱い。[cite: 34]",
+      "content": "代名詞のthoseは複数扱いなので、those whoのカタチでは、those who want to attendのように述語動詞に3単現のsは付きません。[cite: 34]"
+    }
+  },
+  {
+    "id": 133,
+    "chapter": 6,
+    "chapterTitle": "第6章 関係詞問題",
+    "question": "The supermarket owner's decision to close the business disappointed ------- who live in the neighborhood.[cite: 35]",
+    "options": {
+      "A": "everyone",
+      "B": "many",
+      "C": "another",
+      "D": "nobody"
+    },
+    "answer": "B",
+    "translation": "店を閉めるという、そのスーパーのオーナーの決定は、地域住民の多くを落胆させた。[cite: 36]",
+    "explanation": "主格の関係代名詞whoの後を見ると、現在形の述語動詞liveに3単現のsが付いていません。したがって、主述が一致するのは、複数扱いの代名詞 (B) many です。[cite: 36]",
+    "vocabulary": [
+      {"word": "disappoint", "meaning": "落胆させる[cite: 36]"},
+      {"word": "neighborhood", "meaning": "名 (市や町の)地域[cite: 36]"}
+    ],
+    "goldRule": {
+      "number": 75,
+      "title": "注意が必要な manyとmuchの用法。[cite: 36]",
+      "content": "manyは名詞を修飾する「数」の問題や、代名詞としての出題例もあります。many of the people are 〜.(複数扱い)[cite: 36]"
+    }
+  },
+  {
+    "id": 134,
+    "chapter": 6,
+    "chapterTitle": "第6章 関係詞問題",
+    "question": "Please fill out the customer satisfaction survey and leave it with ------- is working at the front desk.[cite: 37]",
+    "options": {
+      "A": "those",
+      "B": "who",
+      "C": "anyone",
+      "D": "whoever"
+    },
+    "answer": "D",
+    "translation": "顧客満足度調査にご記入いただき、受付で働いている者に預けてください。[cite: 38]",
+    "explanation": "直後に述語動詞を伴いつつ、前置詞withの目的語となる名詞のカタマリを作るのは、複合関係代名詞の(D) whoever(〜する人は誰でも＝anyone who)です。[cite: 38]",
+    "vocabulary": [
+      {"word": "fill out", "meaning": "〜に記入する[cite: 38]"},
+      {"word": "survey", "meaning": "名 調査[cite: 38]"}
+    ],
+    "goldRule": {
+      "number": 76,
+      "title": "those と anyone、whoeverの文法的な違いに注意。[cite: 38]",
+      "content": "anyone(単数扱い): anyone who works。 whoever(単数扱い): whoever works。 those(複数扱い): those who work。[cite: 38]"
+    }
+  },
+  {
+    "id": 135,
+    "chapter": 6,
+    "chapterTitle": "第6章 関係詞問題",
+    "question": "Much of the redecorating was done in the room ------- Mr. Wilson often has tea with his friends.[cite: 39]",
+    "options": {
+      "A": "where",
+      "B": "which",
+      "C": "what",
+      "D": "whose"
+    },
+    "answer": "A",
+    "translation": "模様替えの多くは、Wilsonさんがよく友人と茶を飲む部屋で行われた。[cite: 49]",
+    "explanation": "文頭から空所前が節(SV)で、空所後は、Mr. Wilsonが主語、hasが述語動詞、teaが目的語と、文の要素がそろったカタチです。選択肢中、先行詞の「場所」に、後ろから文の要素がそろったカタチをつなげるのは、関係副詞の(A) whereです。[cite: 49]",
+    "vocabulary": [
+      {"word": "redecorating", "meaning": "名 模様替え[cite: 49]"}
+    ],
+    "goldRule": {
+      "number": 77,
+      "title": "関係代名詞の後は「不完全」、関係副詞の後は「完全」なカタチが続く。[cite: 49]",
+      "content": "関係詞問題では、空所後に、主語・目的語・所有格の欠けたカタチが続いていたら関係代名詞、文の要素がそろったカタチが続いていたら関係副詞を選ぶのが基本です。[cite: 49]"
+    }
+  },
+  {
+    "id": 136,
+    "chapter": 6,
+    "chapterTitle": "第6章 関係詞問題",
+    "question": "The president only wants to hear the opinions of managers ------- work closely with employees.[cite: 50]",
+    "options": {
+      "A": "they",
+      "B": "whose",
+      "C": "those",
+      "D": "who"
+    },
+    "answer": "D",
+    "translation": "社長が聞きたいのは、従業員と密に仕事をしている管理職の意見だけだ。[cite: 40]",
+    "explanation": "文頭から空所前が節 (SV)、空所後が述語動詞workで主語が欠けています。空所に主格の関係代名詞(D) whoを入れると、managers who work closely with employees (管理職従業員と密に仕事をしている)と、先行詞 managers を説明する形容詞のカタマリができて正しい英文が完成します。[cite: 40]",
+    "vocabulary": [
+      {"word": "opinion", "meaning": "名 意見[cite: 40]"},
+      {"word": "closely", "meaning": "副 密に[cite: 40]"}
+    ]
+  },
+  {
+    "id": 137,
+    "chapter": 6,
+    "chapterTitle": "第6章 関係詞問題",
+    "question": "At the awards banquet, Mr. Santiago expressed his gratitude to Professor Mary Cho, ------- help in his research was invaluable.[cite: 50]",
+    "options": {
+      "A": "that",
+      "B": "whose",
+      "C": "her",
+      "D": "who"
+    },
+    "answer": "B",
+    "translation": "受賞夕食会で、Santiagoさんは、その助けが彼の研究において計り知れない価値があったMary Cho教授に対し、感謝の意を表した。[cite: 40]",
+    "explanation": "空所前が節(SV)で、空所以降がMary Choという人物の説明です。Mary Choを所有格のHerに変えて空所に入れると、Her help in his research was invaluable. と正しい英文が完成するので、所有格の(B) whose が正解です。[cite: 40]",
+    "vocabulary": [
+      {"word": "awards banquet", "meaning": "受賞夕食会[cite: 40]"},
+      {"word": "express", "meaning": "動 表す[cite: 40]"},
+      {"word": "gratitude", "meaning": "名 感謝[cite: 40]"},
+      {"word": "invaluable", "meaning": "形 計り知れない価値がある[cite: 40]"}
+    ]
+  },
+  {
+    "id": 138,
+    "chapter": 6,
+    "chapterTitle": "第6章 関係詞問題",
+    "question": "An ancient myth was the theme that Erica Akin returned to ------- during her years as a watercolor artist.[cite: 41]",
+    "options": {
+      "A": "repeat",
+      "B": "repetition",
+      "C": "repeatable",
+      "D": "repeatedly"
+    },
+    "answer": "D",
+    "translation": "古代の神話は、Erica Akinが、水彩画家としての長年の間にたびたび立ち返るテーマだった。[cite: 42]",
+    "explanation": "目的格thatの先行詞themeを代名詞itに変え、前置詞toの目的語に戻すと、Erica Akin returned to it -------. となります。空所に入れて正しい文が成立するのは、述語動詞returnedを修飾する副詞の(D) repeatedly です。[cite: 42]",
+    "vocabulary": [
+      {"word": "ancient", "meaning": "形 古代の[cite: 42]"},
+      {"word": "myth", "meaning": "名 神話[cite: 42]"},
+      {"word": "theme", "meaning": "名 テーマ[cite: 42]"},
+      {"word": "watercolor artist", "meaning": "水彩画家[cite: 42]"}
+    ]
+  },
+  {
+    "id": 139,
+    "chapter": 6,
+    "chapterTitle": "第6章 関係詞問題",
+    "question": "Mr. Miller has joined the awards committee, ------- consists of eight distinguished scholars in the field of chemistry.[cite: 41]",
+    "options": {
+      "A": "it",
+      "B": "which",
+      "C": "that",
+      "D": "what"
+    },
+    "answer": "B",
+    "translation": "Millerさんは、化学の分野の著名な8名の学者で構成される表彰委員会に加わった。[cite: 42]",
+    "explanation": "空所前が節(SV)、後が述語動詞consistsで主語が欠けています。空所に主格の関係代名詞(B) whichを入れると正しい英文が完成します。カンマの後に関係代名詞のthatは置けません。[cite: 42]",
+    "vocabulary": [
+      {"word": "awards committee", "meaning": "表彰委員会[cite: 42]"},
+      {"word": "consist of", "meaning": "〜で構成される[cite: 42]"},
+      {"word": "distinguished", "meaning": "形 著名な、名高い[cite: 42]"},
+      {"word": "scholar", "meaning": "名 学者[cite: 42]"},
+      {"word": "chemistry", "meaning": "名 化学[cite: 42]"}
+    ]
+  },
+  {
+    "id": 140,
+    "chapter": 6,
+    "chapterTitle": "第6章 関係詞問題",
+    "question": "When Mr. Robinson applied for a building permit, he provided a document that ------- that he owns the land.[cite: 43]",
+    "options": {
+      "A": "proves",
+      "B": "proving",
+      "C": "is proved",
+      "D": "to prove"
+    },
+    "answer": "A",
+    "translation": "Robinsonさんは、建築許可証を申請した際、彼がその土地を所有していることを証明する書類を提供した。[cite: 44]",
+    "explanation": "thatは主格の関係代名詞です。主格の関係代名詞の直後にはVが続くので、能動態の(A) proves(証明する)が正解です。受動態の(C)は目的語を伴いません。[cite: 44]",
+    "vocabulary": [
+      {"word": "apply for", "meaning": "〜を申請する[cite: 44]"},
+      {"word": "provide", "meaning": "動 提供する[cite: 44]"},
+      {"word": "building permit", "meaning": "建築許可証[cite: 44]"}
+    ]
+  },
+  {
+    "id": 141,
+    "chapter": 6,
+    "chapterTitle": "第6章 関係詞問題",
+    "question": "------- would like to attend Professor Howard's seminar on May 8 should sign up for it by Friday.[cite: 43]",
+    "options": {
+      "A": "Whenever",
+      "B": "Wherever",
+      "C": "Whatever",
+      "D": "Whoever"
+    },
+    "answer": "D",
+    "translation": "Howard教授の5月8日のセミナーに出席したい皆さんは、金曜日までに申し込んでください。[cite: 44]",
+    "explanation": "主語になる名詞のカタマリ(名詞節)を作るのは、複合関係代名詞です。直後のwould like to attendの主語として文意が通るのは、(D) Whoever(〜する人は誰でも)です。[cite: 44]",
+    "vocabulary": [
+      {"word": "sign up for", "meaning": "〜に申し込む[cite: 44]"}
+    ]
+  },
+  {
+    "id": 142,
+    "chapter": 6,
+    "chapterTitle": "第6章 関係詞問題",
+    "question": "As consumers seek to reduce their expenses, the number of cars that ------- has risen significantly.[cite: 45]",
+    "options": {
+      "A": "leased",
+      "B": "is leased",
+      "C": "are being leased",
+      "D": "are leasing"
+    },
+    "answer": "C",
+    "translation": "消費者が支出を減らそうとするにつれて、リースされる車の数がかなり増えた。[cite: 46]",
+    "explanation": "空所前のthatは主格の関係代名詞で、先行詞が複数名詞cars、空所にはそのVが必要です。carsとleaseの間には受動の関係があるので、現在進行形の受動態(C) are being leasedが正解です。[cite: 46]",
+    "vocabulary": [
+      {"word": "seek to do", "meaning": "〜しようとする[cite: 46]"},
+      {"word": "expense", "meaning": "名 支出[cite: 46]"},
+      {"word": "rise", "meaning": "動 上がる[cite: 46]"},
+      {"word": "significantly", "meaning": "副 大幅に、かなり[cite: 46]"}
+    ]
+  },
+  {
+    "id": 143,
+    "chapter": 6,
+    "chapterTitle": "第6章 関係詞問題",
+    "question": "Online shoppers can choose home delivery or in-store pickup, ------- is more convenient.[cite: 45]",
+    "options": {
+      "A": "whereas",
+      "B": "if",
+      "C": "whichever",
+      "D": "either"
+    },
+    "answer": "C",
+    "translation": "オンラインでお買い物されたお客様は、宅配か店内受け取りか、どちらがより便利でも、お選びいただけます。[cite: 46]",
+    "explanation": "空所には述語動詞isの主語が欠けています。主語の役割をしつつ、副詞節を作ることができるのは、複合関係代名詞の(C) whichever(どちらが〜しようと)です。[cite: 46]",
+    "vocabulary": []
+  },
+  {
+    "id": 144,
+    "chapter": 6,
+    "chapterTitle": "第6章 関係詞問題",
+    "question": "Across from the train station, visitors can access the seafood market ------- which the town is renowned.[cite: 47]",
+    "options": {
+      "A": "for",
+      "B": "as",
+      "C": "to",
+      "D": "about"
+    },
+    "answer": "A",
+    "translation": "その駅の反対側で、観光客は、その町の有名な海鮮市場に行ける。[cite: 48]",
+    "explanation": "空所とwhichをまとめて関係詞節の末尾に戻し、先行詞をitに変えると、The town is renowned ------- it. となります。この空所に入れて正しい英文が完成する前置詞は(A) forです。[cite: 48]",
+    "vocabulary": [
+      {"word": "across from X", "meaning": "Xの反対側に[cite: 48]"},
+      {"word": "renowned", "meaning": "形 名高い、有名な[cite: 48]"}
+    ]
+  },
+  {
+    "id": 145,
+    "chapter": 6,
+    "chapterTitle": "第6章 関係詞問題",
+    "question": "Mr. Anderson found a location for his new office that he thinks ------- all of his requirements.[cite: 47]",
+    "options": {
+      "A": "meet",
+      "B": "meets",
+      "C": "meeting",
+      "D": "to meet"
+    },
+    "answer": "B",
+    "translation": "Andersonさんは、すべての必要条件を満たしていると思う新しいオフィスの場所を見つけた。[cite: 48]",
+    "explanation": "修飾語と挿入部分(he thinks)をカッコでくくると、空所には、先行詞a locationと主述が一致する述語動詞が必要だとわかります。したがって、3単現のsが付いた(B) meetsが正解です。[cite: 48]",
+    "vocabulary": [
+      {"word": "requirement", "meaning": "名 必要条件[cite: 48]"}
+    ]
+  }
+]
