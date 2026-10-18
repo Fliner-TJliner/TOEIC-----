@@ -42,6 +42,13 @@
         <input type="number" id="range-end" placeholder="終了番号 (例: 127)">
         <button onclick="startRange()">範囲を開始</button>
       </div>
+
+      <!-- モードD: コースモード -->
+      <div class="mode-box" style="border-color: #ffc107;">
+        <h3>👑 コースモード: 第1回小テスト範囲</h3>
+        <p>Q.120 〜 Q.140 (10秒以内の解答で101%)</p>
+        <button onclick="startCourseMode()" style="background: #e0a800;">コースに挑戦する</button>
+      </div>
     </section>
 
     <!-- 2. 解答画面 -->
@@ -55,11 +62,9 @@
         <span id="q-id">120</span>. <span id="q-text">問題文がここに入ります。</span>
       </div>
 
-      <div id="options-container" class="options-group">
-        <!-- 選択肢がJavaScriptで生成されます -->
-      </div>
+      <div id="options-container" class="options-group"></div>
 
-      <!-- 解説領域（解答後表示） -->
+      <!-- 解説領域 -->
       <div id="explanation-container" class="explanation-box hidden">
         <div id="result-badge" class="badge">正解！</div>
         
@@ -80,14 +85,32 @@
         <button id="next-btn" onclick="nextQuestion()">次の問題へ</button>
       </div>
     </section>
+
+    <!-- 3. コース結果・ランキング画面 -->
+    <section id="course-result-screen" class="card hidden">
+      <h2>コースクリア！</h2>
+      <div class="score-display" style="text-align: center; font-size: 2rem; font-weight: bold; margin: 1rem 0;">
+        Score: <span id="final-score" style="color: #d39e00;">0.00</span> %
+      </div>
+      <p style="text-align: center;">101% (10秒以内正解) : <span id="crit-count">0</span> 回</p>
+
+      <div id="online-ranking-section" class="hidden">
+        <h3>スコアを登録する</h3>
+        <input type="text" id="nickname-input" placeholder="ニックネームを入力" maxlength="10">
+        <button onclick="submitScore()">ランキングに登録</button>
+        
+        <h3 style="margin-top: 2rem;">🏆 オンライントップ10</h3>
+        <ul id="ranking-list" style="list-style: none; padding: 0;"></ul>
+      </div>
+
+      <div id="offline-message" class="hidden" style="color: #dc3545; text-align: center;">
+        ネットワークに接続されていないため、ランキング機能は利用できません。
+      </div>
+
+      <button onclick="exitCourseResult()" class="btn-secondary" style="width: 100%; margin-top: 2rem;">トップへ戻る</button>
+    </section>
   </main>
 
   <script src="app.js"></script>
-  <script>
-    // Service Workerの登録 (オフライン用)
-    if ('serviceWorker' in navigator) {
-      navigator.serviceWorker.register('sw.js');
-    }
-  </script>
 </body>
 </html>
