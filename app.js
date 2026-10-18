@@ -1,7 +1,6 @@
 // ↓↓↓↓ ここを先ほどのGASのURLに書き換えてください ↓↓↓↓
 const RANKING_API_URL = "https://script.google.com/macros/s/AKfycbzu69peCqyV7zz6AQENETxus9V4fRTuEDWWpukSsIV-Am5FHQyZXeUH4haOcqOfDn8y/exec";
 // ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
-
 let allQuestions = [];
 let currentQuizList = [];
 let currentIndex = 0;
