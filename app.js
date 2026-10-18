@@ -43,9 +43,9 @@ function startRange() {
   startQuiz(target);
 }
 
-// コースモードの開始
-function startCourseMode() {
-  const target = allQuestions.filter(q => q.id >= 120 && q.id <= 140);
+// コースモードの開始 (引数で範囲を受け取る)
+function startCourseMode(startId, endId) {
+  const target = allQuestions.filter(q => q.id >= startId && q.id <= endId);
   if (target.length === 0) return alert('問題データがありません。');
   
   isCourseMode = true;

@@ -569,5 +569,317 @@
     "vocabulary": [
       {"word": "requirement", "meaning": "名 必要条件[cite: 48]"}
     ]
+  },
+  {
+    "id": 146,
+    "chapter": 7,
+    "chapterTitle": "第7章 その他の問題",
+    "question": "Submit your photographs ------- by sending them as e-mail attachments or by uploading them to our Web site.[cite: 69]",
+    "options": {
+      "A": "either",
+      "B": "both",
+      "C": "neither",
+      "D": "but"
+    },
+    "answer": "A",
+    "translation": "写真は、メールの添付ファイルとして送るか、我々のウェブサイト上にアップロードするかどちらかでご提出ください。[cite: 70]",
+    "explanation": "文後半のorとペアになるのは、(A) either です。either X or Yのカタチで、「XかYかどちらか」という意味を表します。[cite: 70]",
+    "vocabulary": [
+      {"word": "submit", "meaning": "動 提出する[cite: 70]"},
+      {"word": "attachment", "meaning": "名 添付ファイル[cite: 70]"}
+    ],
+    "goldRule": {
+      "number": 78,
+      "title": "覚えておきたい Part5に出るペア表現。[cite: 70]",
+      "content": "both X and Y (XもYもどちらも)、either X or Y (XかYかどちらか)、neither X nor Y (XもYもどちらも〜ない) など。[cite: 70]"
+    }
+  },
+  {
+    "id": 147,
+    "chapter": 7,
+    "chapterTitle": "第7章 その他の問題",
+    "question": "At Sangson Automotive, we continuously seek ways to become more sustainable in ------- facets of our business.[cite: 71]",
+    "options": {
+      "A": "all",
+      "B": "another",
+      "C": "much",
+      "D": "every"
+    },
+    "answer": "A",
+    "translation": "Sangson自動車では、ビジネスのあらゆる面において、より持続可能になるための方法を常に探し求めています。[cite: 72]",
+    "explanation": "空所後が、可算名詞の複数形facets (面)です。選択肢中、複数形の名詞を修飾できるのは(A) all (すべての)です。[cite: 72]",
+    "vocabulary": [
+      {"word": "automotive", "meaning": "名 自動車[cite: 72]"},
+      {"word": "sustainable", "meaning": "形 持続可能な[cite: 72]"}
+    ],
+    "goldRule": {
+      "number": 79,
+      "title": "頭に入れたい「数」を表す語句。[cite: 72]",
+      "content": "all (単数形×, 複数形〇, 不可算名詞〇)、every (単数形〇, 複数形×, 不可算名詞×) などの修飾ルールを押さえましょう。[cite: 72]"
+    }
+  },
+  {
+    "id": 148,
+    "chapter": 7,
+    "chapterTitle": "第7章 その他の問題",
+    "question": "Candidates for the snow removal position must be ------- to work on December 25.[cite: 73]",
+    "options": {
+      "A": "possible",
+      "B": "convenient",
+      "C": "available",
+      "D": "easy"
+    },
+    "answer": "C",
+    "translation": "除雪の職の候補者は、12月25日に勤務する都合が付けられなければならない。[cite: 74]",
+    "explanation": "candidates (候補者)のような「人」の補語として、主語とイコールになるのは、(C) availableです。availableは、「人」が主語の場合、「都合が付けられる」という意味です。[cite: 74]",
+    "vocabulary": [
+      {"word": "candidate", "meaning": "名 候補者[cite: 74]"},
+      {"word": "removal", "meaning": "名 除去、撤去[cite: 74]"}
+    ],
+    "goldRule": {
+      "number": 80,
+      "title": "「意味」で解けない問題は、「語法」に視点を切り替える。[cite: 74]",
+      "content": "「意味」を考えると答えが絞りづらい場合、補語の用法や自動詞・他動詞の区別など「語法」に視点を切り替えることを意識しましょう。[cite: 74]"
+    }
+  },
+  {
+    "id": 149,
+    "chapter": 7,
+    "chapterTitle": "第7章 その他の問題",
+    "question": "Shannon Bremmer's hit album Starlite Motions ------- her an award at the Sydney Music Awards last night.[cite: 75]",
+    "options": {
+      "A": "achieved",
+      "B": "earned",
+      "C": "made",
+      "D": "honored"
+    },
+    "answer": "B",
+    "translation": "Shannon Bremmerのヒットアルバム『Starlite Motions』は、昨晩、Sydney音楽賞で彼女に賞をもたらした。[cite: 76]",
+    "explanation": "空所後に、her an awardと、目的語が2つ続いています。選択肢中、こうしたSVOOのカタチをとれる動詞は(B) earned です。[cite: 76]",
+    "vocabulary": [],
+    "goldRule": {
+      "number": 81,
+      "title": "注意したい二重目的語をとる動詞。[cite: 76]",
+      "content": "earn以外に、won, granted, awarded, offered, assign などのSVOOをとる動詞も頭に入れましょう。[cite: 76]"
+    }
+  },
+  {
+    "id": 150,
+    "chapter": 7,
+    "chapterTitle": "第7章 その他の問題",
+    "question": "After the renovation, the stylish décor will make the dining experience ------- more enjoyable for our guests.[cite: 77]",
+    "options": {
+      "A": "very",
+      "B": "enough",
+      "C": "better",
+      "D": "even"
+    },
+    "answer": "D",
+    "translation": "改装後、おしゃれな装飾品が、当店のお客様にとっての食事の経験を、より一層楽しくするでしょう。[cite: 78]",
+    "explanation": "選択肢中、空所後の形容詞の比較級 more enjoyable を強調できる副詞は、(D) even (さらに、より)です。[cite: 78]",
+    "vocabulary": [
+      {"word": "renovation", "meaning": "名 改装[cite: 78]"},
+      {"word": "décor", "meaning": "名 装飾品[cite: 78]"}
+    ],
+    "goldRule": {
+      "number": 82,
+      "title": "覚えておきたい比較級を強調する副詞。[cite: 78]",
+      "content": "比較級を強調する副詞として、even (さらに)、much/far (はるかに)の3つを押さえましょう。[cite: 78]"
+    }
+  },
+  {
+    "id": 151,
+    "chapter": 7,
+    "chapterTitle": "第7章 その他の問題",
+    "question": "Some Denver stores operate around the clock, but ------- remain open at night outside the city.[cite: 79]",
+    "options": {
+      "A": "each",
+      "B": "other",
+      "C": "few",
+      "D": "much"
+    },
+    "answer": "C",
+    "translation": "Denverには24時間営業の店もあるが、市外では夜間営業している店はほとんどない。[cite: 80]",
+    "explanation": "現在形の述語動詞remainに3単現のsが付いていないので、主述が一致するのは、複数扱いの代名詞(C) few (少数)です。[cite: 80]",
+    "vocabulary": [
+      {"word": "operate", "meaning": "動 営業する[cite: 80]"},
+      {"word": "around the clock", "meaning": "24時間[cite: 80]"}
+    ]
+  },
+  {
+    "id": 152,
+    "chapter": 7,
+    "chapterTitle": "第7章 その他の問題",
+    "question": "Denton Publishing is ------- to environmentally friendly practices including the recycling of used paper.[cite: 79]",
+    "options": {
+      "A": "expected",
+      "B": "intended",
+      "C": "hoped",
+      "D": "committed"
+    },
+    "answer": "D",
+    "translation": "Denton出版は、使用済みの紙のリサイクルを含む、環境にやさしい活動に尽力している。[cite: 80]",
+    "explanation": "空所後のtoの後に名詞が続いているので、このtoは前置詞です。選択肢中、前置詞toを伴うのは、(D) committedです。[cite: 80]",
+    "vocabulary": [
+      {"word": "environmentally friendly practices", "meaning": "環境にやさしい活動[cite: 80]"},
+      {"word": "including", "meaning": "〜を含む[cite: 80]"}
+    ]
+  },
+  {
+    "id": 153,
+    "chapter": 7,
+    "chapterTitle": "第7章 その他の問題",
+    "question": "------- are the business seminars free to attend in person, but they can also be viewed live online.[cite: 81]",
+    "options": {
+      "A": "Not only",
+      "B": "Additionally",
+      "C": "Only when",
+      "D": "Besides"
+    },
+    "answer": "A",
+    "translation": "そのビジネスセミナーは直接無料で参加できるだけでなく、オンラインで、ライブで観ることもできる。[cite: 82]",
+    "explanation": "述語動詞areの後に主語が続く疑問文の語順（倒置形）になっています。選択肢中、倒置形になるのは、(A) Not onlyです。[cite: 82]",
+    "vocabulary": [
+      {"word": "in person", "meaning": "直接[cite: 82]"}
+    ]
+  },
+  {
+    "id": 154,
+    "chapter": 7,
+    "chapterTitle": "第7章 その他の問題",
+    "question": "All guests receive a breakfast voucher that can be used at ------- of the two hotel restaurants.[cite: 81]",
+    "options": {
+      "A": "some",
+      "B": "every",
+      "C": "other",
+      "D": "either"
+    },
+    "answer": "D",
+    "translation": "お客様は全員、ホテルの2つのレストランのどちらでも使える朝食の引換券を受け取ります。[cite: 82]",
+    "explanation": "空所後に、of the two hotel restaurantsとあるので、2つの「どちらか、どちらも」という意味を表す代名詞の(D) either が正解です。[cite: 82]",
+    "vocabulary": [
+      {"word": "voucher", "meaning": "名 無料券、引換券[cite: 82]"}
+    ]
+  },
+  {
+    "id": 155,
+    "chapter": 7,
+    "chapterTitle": "第7章 その他の問題",
+    "question": "The luncheon will provide a unique opportunity to ------- acquainted with attorneys from a variety of Jakarta law firms.[cite: 83]",
+    "options": {
+      "A": "become",
+      "B": "develop",
+      "C": "learn",
+      "D": "know"
+    },
+    "answer": "A",
+    "translation": "その昼食会は、さまざまなJakartaの法律事務所の弁護士と知り合いになる、他にはない機会を提供するだろう。[cite: 84]",
+    "explanation": "空所後の形容詞acquaintedがポイントです。選択肢中、唯一、形容詞を補語にとるSVCのカタチになる動詞が(A) becomeです。[cite: 84]",
+    "vocabulary": [
+      {"word": "luncheon", "meaning": "名 昼食会[cite: 84]"},
+      {"word": "unique", "meaning": "形 他にはない[cite: 84]"},
+      {"word": "opportunity", "meaning": "名 機会[cite: 84]"},
+      {"word": "acquainted", "meaning": "形 知り合いの、精通している[cite: 84]"},
+      {"word": "attorney", "meaning": "名 弁護士[cite: 84]"},
+      {"word": "a variety of", "meaning": "さまざまな[cite: 84]"}
+    ]
+  },
+  {
+    "id": 156,
+    "chapter": 7,
+    "chapterTitle": "第7章 その他の問題",
+    "question": "Whether the golf tournament will be held in Scotland ------- Wales has yet to be decided.[cite: 83]",
+    "options": {
+      "A": "if",
+      "B": "or",
+      "C": "so",
+      "D": "neither"
+    },
+    "answer": "B",
+    "translation": "そのゴルフトーナメントが開催されるのが、Scotland か Wales かはまだ決まっていない。[cite: 84]",
+    "explanation": "文頭の接続詞whetherとペアになり、「かどうか」という意味の名詞のカタマリを作るのが(B) orです。[cite: 84]",
+    "vocabulary": [
+      {"word": "has/have yet to do", "meaning": "まだ〜していない[cite: 84]"}
+    ]
+  },
+  {
+    "id": 157,
+    "chapter": 7,
+    "chapterTitle": "第7章 その他の問題",
+    "question": "Radio advertising has ------- to be highly effective for reaching certain types of consumers.[cite: 85]",
+    "options": {
+      "A": "proven",
+      "B": "handled",
+      "C": "ensured",
+      "D": "taken"
+    },
+    "answer": "A",
+    "translation": "ラジオ広告は、特定のタイプの消費者に情報を伝えるのに非常に効果的だと判明した。[cite: 86]",
+    "explanation": "選択肢中、直後に不定詞を伴うのは、動詞proveの過去分詞(A) provenです。prove to beのカタチで「〜だと判明する、〜だとわかる」という意味を表します。[cite: 86]",
+    "vocabulary": [
+      {"word": "highly", "meaning": "副 非常に[cite: 86]"},
+      {"word": "reach", "meaning": "動 情報を伝える[cite: 86]"},
+      {"word": "consumer", "meaning": "名 消費者[cite: 86]"},
+      {"word": "effective", "meaning": "形 効果的な[cite: 86]"},
+      {"word": "certain", "meaning": "形 決まった、特定の[cite: 86]"}
+    ]
+  },
+  {
+    "id": 158,
+    "chapter": 7,
+    "chapterTitle": "第7章 その他の問題",
+    "question": "Calvelo Pharma's latest advertising campaign ------- in a significant increase in sales of its health supplements.[cite: 85]",
+    "options": {
+      "A": "generated",
+      "B": "resulted",
+      "C": "caused",
+      "D": "included"
+    },
+    "answer": "B",
+    "translation": "Calvelo Pharmaの最新の広告キャンペーンは、自社の健康栄養補助食品の大幅な売り上げ増につながった。[cite: 86]",
+    "explanation": "選択肢中、空所後の前置詞inとセットで用いられる自動詞は、(B) resultedです。result in Xで「X(という結果)につながる」という意味です。[cite: 86]",
+    "vocabulary": [
+      {"word": "latest", "meaning": "形 最新の[cite: 86]"},
+      {"word": "significant", "meaning": "形 大幅な、かなりの[cite: 86]"},
+      {"word": "supplement", "meaning": "名 栄養補助食品、サプリ[cite: 86]"}
+    ]
+  },
+  {
+    "id": 159,
+    "chapter": 7,
+    "chapterTitle": "第7章 その他の問題",
+    "question": "Artificial intelligence is being incorporated into marketing tools that ------- users anticipate consumer needs.[cite: 87]",
+    "options": {
+      "A": "support",
+      "B": "enable",
+      "C": "allow",
+      "D": "help"
+    },
+    "answer": "D",
+    "translation": "人工知能(AI)は、ユーザーが消費者のニーズを予想するのを手助けするマーケティングツールに取り入れられつつある。[cite: 88]",
+    "explanation": "空所後の名詞 users に続く原形動詞 anticipate がポイントです。動詞の(D) helpは、help O (to) doと、目的語の後にto不定詞または原形動詞を伴います。[cite: 88]",
+    "vocabulary": [
+      {"word": "incorporate", "meaning": "取り入れる、組み込む[cite: 88]"},
+      {"word": "anticipate", "meaning": "動 予想する[cite: 88]"}
+    ]
+  },
+  {
+    "id": 160,
+    "chapter": 7,
+    "chapterTitle": "第7章 その他の問題",
+    "question": "Merchandise purchased ------- stores or online can be returned to any Nauticon outlet location.[cite: 87]",
+    "options": {
+      "A": "both",
+      "B": "either",
+      "C": "in",
+      "D": "but"
+    },
+    "answer": "C",
+    "translation": "店内またはオンラインで購入された商品は、Nauticonのどの店にも返品可能です。[cite: 88]",
+    "explanation": "空所後のorを見て、反射的に(B)を選ばないように。空所に前置詞(C) inを入れると、Merchandise purchased in stores or online (商品 店内またはオンラインで購入された)という主語を説明する形容詞のカタマリができて正しい英文になります。[cite: 88]",
+    "vocabulary": [
+      {"word": "online", "meaning": "オンラインで[cite: 88]"},
+      {"word": "outlet", "meaning": "名 店[cite: 88]"}
+    ]
   }
 ]
