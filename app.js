@@ -1,6 +1,7 @@
 // ↓↓↓↓ ここを先ほどのGASのURLに書き換えてください ↓↓↓↓
 const RANKING_API_URL = "https://script.google.com/macros/s/AKfycbzu69peCqyV7zz6AQENETxus9V4fRTuEDWWpukSsIV-Am5FHQyZXeUH4haOcqOfDn8y/exec";
 // ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+
 let allQuestions = [];
 let currentQuizList = [];
 let currentIndex = 0;
@@ -8,10 +9,11 @@ let currentIndex = 0;
 // コースモード用変数
 let isCourseMode = false;
 let questionStartTime = 0;
-let totalBaseScore = 0; // 内部計算用 (1問最大10100)
+let totalBaseScore = 0; 
 let crit101Count = 0;
-const SCORE_JUSTICE = 10000; // 通常正解
-const SCORE_CRITICAL = 10100; // 10秒以内正解
+const SCORE_JUSTICE = 10000; 
+const SCORE_CRITICAL = 10100; 
+let isSubmitting = false; // ランキング重複送信防止ロック
 
 // アプリ起動時にデータ読み込み
 fetch('questions.json')
@@ -19,6 +21,17 @@ fetch('questions.json')
   .then(data => {
     allQuestions = data;
   });
+
+// アプリ起動時に保存されたニックネームを復元
+document.addEventListener('DOMContentLoaded', () => {
+  const savedName = localStorage.getItem('toeic_nickname');
+  if (savedName) document.getElementById('home-nickname').value = savedName;
+});
+
+// ニックネームが入力されたら自動保存
+document.getElementById('home-nickname').addEventListener('input', (e) => {
+  localStorage.setItem('toeic_nickname', e.target.value);
+});
 
 function startSingleQuestion() {
   const num = parseInt(document.getElementById('single-q-num').value);
@@ -80,12 +93,11 @@ function renderQuestion() {
     container.appendChild(btn);
   }
   
-  // 出題時刻を記録
   questionStartTime = Date.now();
 }
 
 function selectAnswer(selectedKey) {
-  const timeTaken = (Date.now() - questionStartTime) / 1000; // 秒換算
+  const timeTaken = (Date.now() - questionStartTime) / 1000; 
   const q = currentQuizList[currentIndex];
   const isCorrect = (selectedKey === q.answer);
 
@@ -94,18 +106,17 @@ function selectAnswer(selectedKey) {
 
   const badge = document.getElementById('result-badge');
   
-  // スコア計算 (コースモード時のみ)
   if (isCourseMode) {
     if (isCorrect) {
       if (timeTaken <= 10.0) {
         totalBaseScore += SCORE_CRITICAL;
         crit101Count++;
         badge.innerText = "正解！ (101% CRITICAL)";
-        badge.style.background = "#d39e00"; // 金色
+        badge.style.background = "#d39e00"; 
       } else {
         totalBaseScore += SCORE_JUSTICE;
         badge.innerText = "正解！ (100% JUSTICE)";
-        badge.style.background = "#28a745"; // 緑
+        badge.style.background = "#28a745"; 
       }
     } else {
       badge.innerText = "不正解 (MISS)";
@@ -116,7 +127,6 @@ function selectAnswer(selectedKey) {
     badge.style.background = isCorrect ? "#28a745" : "#dc3545";
   }
 
-  // 解説表示処理
   document.getElementById('correct-answer').innerText = `(${q.answer}) ${q.options[q.answer]}`;
   document.getElementById('q-translation').innerText = q.translation;
   document.getElementById('q-explanation').innerText = q.explanation;
@@ -163,30 +173,33 @@ function showCourseResult() {
   document.getElementById('quiz-screen').classList.add('hidden');
   document.getElementById('course-result-screen').classList.remove('hidden');
 
-  // CHUNITHM仕様のパーセンテージ計算 (最大101.00%)
   const maxNormalScore = currentQuizList.length * SCORE_JUSTICE;
   const finalPercentage = (totalBaseScore / maxNormalScore) * 100;
   
   document.getElementById('final-score').innerText = finalPercentage.toFixed(2);
   document.getElementById('crit-count').innerText = crit101Count;
 
-  // オンライン判定
   if (navigator.onLine) {
     document.getElementById('online-ranking-section').classList.remove('hidden');
     document.getElementById('offline-message').classList.add('hidden');
-    loadRanking();
+    
+    // リザルト画面表示と同時に自動送信
+    submitScore(finalPercentage);
   } else {
     document.getElementById('online-ranking-section').classList.add('hidden');
     document.getElementById('offline-message').classList.remove('hidden');
   }
 }
 
-// ランキング送信
-async function submitScore() {
-  const nickname = document.getElementById('nickname-input').value.trim() || "名無し";
-  const finalPercentage = parseFloat(document.getElementById('final-score').innerText);
+// ランキング自動送信（重複送信防止機能付き）
+async function submitScore(finalPercentage) {
+  if (isSubmitting) return; // すでに送信中なら何もしない
+  isSubmitting = true;
 
-  document.getElementById('nickname-input').disabled = true;
+  const nicknameInput = document.getElementById('home-nickname').value.trim();
+  const nickname = nicknameInput || "名無し";
+
+  document.getElementById('ranking-list').innerHTML = '<li>ランキングを更新中...</li>';
 
   try {
     const response = await fetch(RANKING_API_URL, {
@@ -200,11 +213,14 @@ async function submitScore() {
     const rankingData = await response.json();
     renderRanking(rankingData);
   } catch (error) {
-    alert("ランキングの送信に失敗しました。");
+    console.error("ランキングの送信に失敗しました。", error);
+    document.getElementById('ranking-list').innerHTML = '<li>ランキングの取得に失敗しました</li>';
+    loadRanking(); // 送信に失敗してもランキングの読み込みだけは試みる
+  } finally {
+    isSubmitting = false; // 送信ロックを解除
   }
 }
 
-// ランキング取得
 async function loadRanking() {
   try {
     const response = await fetch(RANKING_API_URL);
@@ -233,8 +249,6 @@ function exitCourseResult() {
   isCourseMode = false;
   document.getElementById('course-result-screen').classList.add('hidden');
   document.getElementById('mode-selection').classList.remove('hidden');
-  document.getElementById('nickname-input').disabled = false;
-  document.getElementById('nickname-input').value = "";
 }
 
 function exitQuiz() {

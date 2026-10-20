@@ -16,6 +16,13 @@
     <!-- 1. モード選択画面 -->
     <section id="mode-selection" class="card">
       <h2>学習モードを選択</h2>
+      <!-- ▼ 追加：プレイヤー設定（ランキング用） ▼ -->
+      <div class="mode-box" style="border-color: #17a2b8;">
+        <h3>👤 プレイヤー設定</h3>
+        <input type="text" id="home-nickname" placeholder="ニックネーム (ランキング用)" maxlength="10">
+        <p style="font-size: 0.8rem; color: #666; margin-top: 0.5rem;">※コースモードクリア時に自動でスコアが送信されます</p>
+      </div>
+      <!-- ▲ 追加ここまで ▲ -->
       
       <!-- モードA: 1問ピンポイント -->
       <div class="mode-box">
@@ -71,7 +78,12 @@
 
       <!-- 解説領域 -->
       <div id="explanation-container" class="explanation-box hidden">
-        <div id="result-badge" class="badge">正解！</div>
+       <!-- ▼ 修正：バッジと「次の問題へ」ボタンを横並びで上に配置 ▼ -->
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem;">
+          <div id="result-badge" class="badge" style="margin-bottom: 0;">正解！</div>
+          <button id="next-btn" onclick="nextQuestion()" style="margin-top: 0; width: auto; padding: 0.5rem 1.5rem; background-color: #28a745;">次の問題へ ＞</button>
+        </div>
+        <!-- ▲ 修正ここまで ▲ -->
         
         <h4>■ 正解: <span id="correct-answer"></span></h4>
         <p><strong>【訳】</strong><br><span id="q-translation"></span></p>
@@ -86,8 +98,6 @@
           <h5 id="gold-rule-title">金のルール</h5>
           <p id="gold-rule-content"></p>
         </div>
-
-        <button id="next-btn" onclick="nextQuestion()">次の問題へ</button>
       </div>
     </section>
 
@@ -100,10 +110,6 @@
       <p style="text-align: center;">101% (10秒以内正解) : <span id="crit-count">0</span> 回</p>
 
       <div id="online-ranking-section" class="hidden">
-        <h3>スコアを登録する</h3>
-        <input type="text" id="nickname-input" placeholder="ニックネームを入力" maxlength="10">
-        <button onclick="submitScore()">ランキングに登録</button>
-        
         <h3 style="margin-top: 2rem;">🏆 オンライントップ10</h3>
         <ul id="ranking-list" style="list-style: none; padding: 0;"></ul>
       </div>
